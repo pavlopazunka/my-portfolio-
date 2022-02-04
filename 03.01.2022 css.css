@@ -1,0 +1,123 @@
+body {
+    background-color: #1B1E2F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    background-color: #1B1E2F;
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.span1 {
+    font-size: 24px;
+}
+
+.block {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.free {
+    background-color: #E5E3E3;
+    height: 640px;
+    width: 300px;
+    border: #E5E3E3 solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.span2 {
+    font-size: 18px;
+}
+
+.span4 {
+    font-size: 72px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.index {
+    font-size: 24px;
+}
+
+.in1 {
+    font-size: 24px;
+}
+
+.in2 {
+    font-size: 24px;
+}
+
+.idk {
+    font-size: 18px;
+}
+
+.btn {
+    height: 52px;
+    width: 250px;
+    background-color: #1765AD;
+    color: #E5E3E3;
+    font-size: 18px;
+    border: #1765AD solid;
+    border-radius: 30px;
+}
+
+.standard {
+    background-color: #1765AD;
+    height: 740px;
+    width: 340px;
+    border: #1765AD solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.btn2 {
+    height: 52px;
+    width: 250px;
+    background-color: #E5E3E3;
+    color: #E5E3E3;
+    font-size: 18px;
+    border: #E5E3E3 solid;
+    border-radius: 30px;
+    color: #1765AD;
+}
+
+.business {
+    background-color: #E5E3E3;
+    height: 640px;
+    width: 300px;
+    border: #E5E3E3 solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+}
+
+.span3 {
+    font-size: 18px;
+}

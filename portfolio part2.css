@@ -1,0 +1,288 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(195, 198, 199, 1) 100%);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-family:'Montserrat';
+    font-size: 32px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bigbox{
+    height: 120vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.minibigbox{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.minibigbox2{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.box1{
+    height: 34vh;
+    width: 230px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box2{
+    background-color: white;
+    height: 34vh;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box3{
+    background-color: white;
+    height: 34vh;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box4{
+    background-color: white;
+    height: 34vh;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box5{
+    background-color: white;
+    height: 34vh;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.wht{
+    height: 5vh;
+    width: 100%;
+}
+.minbox1{
+    background-image: url(prrjct.png);
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+}
+.minboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: 0.72s;
+}
+a:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+    color: black;
+}
+.knopka{
+    font-family: 'Montserrat';
+    color: black;
+    text-decoration: none;
+}
+.title{
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 20px;
+}
+.idk2:hover{
+    color: black;
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.minbox3{
+    background-image: url(prjct2.png);
+    background-size: cover;
+    height: 20vh;
+    width: 229px;
+}
+.minbox5{
+    background-image: url(blcksea.png);
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+}
+.minbox7{
+    background-image: url(prising.png);
+    background-size: cover;
+    height: 20vh;
+    width: 229px;
+}
+
+@media only screen and (max-width: 992px){
+    .minibigbox{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .box1{
+        height: 34vh;
+        width: 230px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box2{
+        background-color: white;
+        height: 34vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box3{
+        background-color: white;
+        height: 34vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box4{
+        background-color: white;
+        height: 34vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box5{
+        background-color: white;
+        height: 34vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .bigbox{
+        height: 140vh;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .minibigbox{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .minibigbox2{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .box1{
+        height: 28vh;
+        width: 230px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box2{
+        background-color: white;
+        height: 28vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box3{
+        background-color: white;
+        height: 28vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box4{
+        background-color: white;
+        height: 28vh;
+        width: 230px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .box5{
+        background-image: url(https://fantastech.co/wp-content/uploads/bb-plugin/cache/figma-icon-circle.png);
+        background-size: cover;
+        height: 90px;
+        width: 90px;
+        border: 1px solid black;
+        border-radius: 50px;
+    }
+    .minboxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    a{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: 0.72s;
+}
+a:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+    color: black;
+    
+}
+.knopka{
+    font-family: 'Montserrat';
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.title{
+    font-family: 'Montserrat';
+    color: black;
+    display: none;
+}
+.idk2:hover{
+    color: black;
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+}

@@ -1,0 +1,253 @@
+:root {
+    --main-bg-color: cadetblue;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-color: cadetblue;
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blacksea {
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.links {
+    font-family: fantasy;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.links:hover{
+    font-size: 16px;
+}
+
+.div2 {
+    background-color: cadetblue;
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 40px;
+    gap: 10px;
+}
+
+.photo1 {
+    background-image: url('Layer 1.png');
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 40px;
+    color: white;
+    padding: auto;
+    text-align: center;
+}
+
+.start {
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px;
+    border: solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+}
+.start:hover {
+    font-family: fantasy;
+    font-size: 20px;  
+    color: rgb(27, 27, 148);
+    text-align: center;
+    line-height: 40px;
+    margin: 20px;
+    border: solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+
+}
+
+.black {
+    background-color: black;
+    width: auto;
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.black1 {
+    background-color: black;
+    width: auto;
+    height: 700px;
+    padding: 50px;
+}
+
+.lorem {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.photo2 {
+    width: calc(100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.kaily1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background-color: black;
+}
+
+.kaily2 {
+    background-color: #4ebf28;
+    height: 500px;
+    width: 1200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniphoto {
+    border-radius: 180px;
+    border: 4px double;
+    width: 220px;
+    height: 220px;
+    background-image: url('Без названия.png');
+}
+
+h2 {
+    color: white;
+}
+
+.lorem1 {
+    color: white;
+    padding: 30px;
+}
+.idk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    background-color: black;
+}
+.kaily3 {
+    background-color: rgb(104, 15, 104);
+    height: 500px;
+    width: 1200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.miniphoto2 {
+    border-radius: 180px;
+    border: 4px double;
+    width: 220px;
+    height: 220px;
+    background-image: url('cat.png');
+
+}
+.kaily4 {
+    background-color: rgb(252, 55, 55);
+    height: 500px;
+    width: 1200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.miniphoto3 {
+    border-radius: 180px;
+    border: 4px double;
+    width: 220px;
+    height: 220px;
+    background-image: url('cattt.png');
+
+}
+.idk1{
+    background-color: black;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.imgg{
+    width: 60px;
+    height: 60px;
+    border: solid;
+    border-color: white;
+    
+}
+.imgg:hover{
+    width: 70px;
+    height: 70px;
+    border: solid;
+    border-color: white;
+}
+.idk2{
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.creator {
+    font-size: 20px;
+    color: white;
+}
+.orange{
+    font-size: 20px;
+    color: orange;
+}
